@@ -1,14 +1,13 @@
 import Vue from "vue";
-import PrimeExplorer from "./index.js"
+import {PrimeExplorer1} from "./index.js"
 
-let pe = PrimeExplorer.PrimeExplorer1;
 
 new Vue({
     el : "#widget",
     components : {
-        pe
+        PrimeExplorer1
     },
     render : function (createElement) {
-        return createElement(pe);
+        return createElement(PrimeExplorer1);
     }
 });
