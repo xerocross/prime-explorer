@@ -1,13 +1,14 @@
 {
   "name": "prime-explorer",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "local": "cross-env NODE_ENV=local webpack-dev-server --hot --inline",
     "dev": "cross-env NODE_ENV=dev webpack; node app.js",
-    "prod": "webpack; node app.js"
+    "prod": "webpack; node app.js",
+    "build": "webpack;"
   },
   "keywords": ["prime numbers"],
   "author": "Adam Cross",
