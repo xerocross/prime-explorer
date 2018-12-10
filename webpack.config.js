@@ -46,7 +46,7 @@ module.exports = {
         ]
     },
     optimization : {
-        minimize : false
+        minimize : true
     },
     plugins : [
         new webpack.DefinePlugin({
