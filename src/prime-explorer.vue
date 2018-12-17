@@ -12,12 +12,13 @@
 </template>
 <script>
 import {DemoLayout} from "cross-vue-base";
-import {PrimeExplorerMultiples, PrimeFactorsWidget} from "./index.js";
+import {PrimeExplorerMultiples} from "./index.js";
+import PrimeFactorsWidgetDemo from "./components/prime-factors-widget-demo.vue";
 export default {
     components : {
         DemoLayout,
         PrimeExplorerMultiples,
-        PrimeFactorsWidget
+        PrimeFactorsWidgetDemo
     },
     data () {
         return {
@@ -28,7 +29,7 @@ export default {
                 "notes" : ""
             },
             {
-                "link" : PrimeFactorsWidget,
+                "link" : PrimeFactorsWidgetDemo,
                 "name" : "Prime Factors Widget",
                 "id" : "PrimeFactorsWidget",
                 "notes" : ""
