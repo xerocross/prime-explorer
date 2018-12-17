@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="prime-factors-widget-demo">
         <prime-factors-widget
             :factor-worker-url = "workerURL"
         />
@@ -18,3 +18,10 @@ export default {
     }
 }
 </script>
+<style lang="scss">
+.prime-factors-widget-demo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+</style>

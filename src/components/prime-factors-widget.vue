@@ -189,7 +189,9 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    .outer {
+        width : 100%;
+    }
     .input-form {
         text-align: center;
         width: 100%;
