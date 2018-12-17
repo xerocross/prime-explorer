@@ -11,7 +11,7 @@
     </div>
 </template>
 <script>
-import DemoLayout from "./components/demo-layout.vue";
+import {DemoLayout} from "cross-vue-base";
 import {PrimeExplorerMultiples, PrimeFactorsWidget} from "./index.js";
 export default {
     components : {

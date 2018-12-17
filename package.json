@@ -1,6 +1,6 @@
 {
   "name": "prime-explorer",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -18,11 +18,12 @@
   "author": "Adam Cross",
   "license": "0BSD",
   "dependencies": {
+    "cross-vue-base": "^0.3.1",
     "decimal.js": "^10.0.2",
+    "express": "^4.16.4",
     "lodash.debounce": "^4.0.8",
     "q": "^1.5.1",
-    "vue": "^2.5.17",
-    "express": "^4.16.4"
+    "vue": "^2.5.21"
   },
   "repository": {
     "type": "git",
