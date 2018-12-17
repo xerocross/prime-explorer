@@ -11,7 +11,7 @@ module.exports = {
         path : path.resolve(__dirname, './dist'),
         publicPath : '/dist',
         filename : '[name].js',
-        library : 'CrossPrimeExplorer',
+        library : 'PrimeExplorer',
         libraryTarget : 'umd',
         umdNamedDefine : true
     },
