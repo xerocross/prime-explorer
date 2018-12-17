@@ -190,9 +190,6 @@ export default {
     align-items: center;
     justify-content: center;
 
-    .outer {
-        max-width: 500px;
-    }
     .input-form {
         text-align: center;
         width: 100%;
