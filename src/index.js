@@ -1,4 +1,6 @@
-import PrimeExplorer1 from "./components/prime-explorer-1.vue";
+import PrimeFactorsWidget from "./components/prime-factors-widget.vue";
+import PrimeExplorerMultiples from "./components/prime-explorer-multiples.vue";
+const PrimeExplorer1 = PrimeExplorerMultiples;
 
 const PrimeExplorer1Plugin = {
     install(Vue, options) {
@@ -13,4 +15,4 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 
 export default PrimeExplorer1Plugin;
-export { PrimeExplorer1 };
+export { PrimeExplorer1, PrimeFactorsWidget, PrimeExplorerMultiples};

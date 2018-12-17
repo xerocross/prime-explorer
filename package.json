@@ -10,10 +10,15 @@
     "prod": "webpack; node app.js",
     "build": "webpack;"
   },
-  "keywords": ["prime numbers"],
+  "keywords": [
+    "prime numbers"
+  ],
   "author": "Adam Cross",
   "license": "0BSD",
   "dependencies": {
+    "decimal.js": "^10.0.2",
+    "lodash.debounce": "^4.0.8",
+    "q": "^1.5.1",
     "vue": "^2.5.17"
   },
   "repository": {
@@ -21,14 +26,13 @@
     "url": "https://github.com/xerocross/prime-explorer.git"
   },
   "devDependencies": {
-    "express": "^4.16.4",
-    "cross-env": "^5.2.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.2.0",
     "css-loader": "^1.0.0",
     "eslint": "^5.9.0",
     "eslint-config-standard": "^12.0.0",
@@ -40,6 +44,7 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^4.7.1",
+    "express": "^4.16.4",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
