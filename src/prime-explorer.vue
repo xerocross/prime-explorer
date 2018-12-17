@@ -4,7 +4,8 @@
             :widgets = "widgets"
             title = "Prime Explorer"
         />
-        <p class="copyright">
+        <p class="footer">
+            <a href="https://github.com/xerocross/prime-explorer">https://github.com/xerocross/prime-explorer</a><br/>
             This website and all original content copyright Adam Cross, 2018.
         </p>
     </div>
@@ -38,7 +39,7 @@ export default {
 
 </script>
 <style lang="scss">
-    .copyright {
+    .footer {
         margin-top:20px; 
         text-align:center;
     }
