@@ -1,6 +1,6 @@
 {
   "name": "prime-explorer",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -21,7 +21,8 @@
     "decimal.js": "^10.0.2",
     "lodash.debounce": "^4.0.8",
     "q": "^1.5.1",
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "express": "^4.16.4"
   },
   "repository": {
     "type": "git",
@@ -46,7 +47,6 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^4.7.1",
-    "express": "^4.16.4",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
