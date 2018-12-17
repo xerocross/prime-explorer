@@ -1,6 +1,6 @@
 {
   "name": "prime-explorer",
-  "version": "0.6.2",
+  "version": "0.6.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
