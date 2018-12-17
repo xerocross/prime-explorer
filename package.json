@@ -8,7 +8,9 @@
     "local": "cross-env NODE_ENV=local webpack-dev-server --hot --inline",
     "dev": "cross-env NODE_ENV=dev webpack; node app.js",
     "prod": "webpack; node app.js",
-    "build": "webpack;"
+    "build": "webpack;",
+    "start": "node app.js",
+    "heroku-postbuild": "NODE_ENV=production webpack"
   },
   "keywords": [
     "prime numbers"
